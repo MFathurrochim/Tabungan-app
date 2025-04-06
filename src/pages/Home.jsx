@@ -51,10 +51,10 @@ export default function Home() {
 
       <div className="flex gap-4 justify-center mb-6">
         <button onClick={handleAdd} className="bg-green-500 hover:bg-green-600 transition text-white px-6 py-3 rounded-xl flex items-center gap-2">
-          <ArrowUpCircle size={20} /> Tambah
+          <ArrowUpCircle size={20} /> Tambahin
         </button>
         <button onClick={handleSubtract} className="bg-red-500 hover:bg-red-600 transition text-white px-6 py-3 rounded-xl flex items-center gap-2">
-          <ArrowDownCircle size={20} /> Kurang
+          <ArrowDownCircle size={20} /> Kurangin
         </button>
       </div>
 
