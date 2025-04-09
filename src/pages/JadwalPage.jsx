@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useAppContext } from 'src/contexts/AppContext';
-import JadwalTransaksi from 'src/components/JadwalTransaksi';
+import { useAppContext } from '../contexts/AppContext';
+import JadwalTransaksi from '../components/JadwalTransaksi';
 import { ArrowUpIcon, ArrowDownIcon } from '@heroicons/react/24/outline';
 
 const JadwalPage = () => {
