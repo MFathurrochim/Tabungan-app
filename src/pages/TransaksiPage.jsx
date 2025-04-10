@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../contexts/AppContext';
-import TransaksiForm from 'src/components/TransaksiForm';
-import TransaksiList from 'src/components/TransaksiList';
+import TransaksiForm from '../components/TransaksiForm';
+import TransaksiList from '../components/TransaksiList';
 
 const formatCurrency = (amount) => {
   return new Intl.NumberFormat('id-ID', {
